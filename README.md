@@ -2,8 +2,7 @@
 
 ### Overview
 
-This project contain an implementation of a Fully Convolutional Network for semantic segmentation of a road in images
-Kitti data set was used for network training
+This project contains an implementation of a Fully Convolutional Network for semantic segmentation of a road. Kitti data set was used for network training.
 
 ### Model architecture
 
@@ -13,7 +12,7 @@ resulted layer upsampled and connected with 1x1 convolution of layer 3, resulted
 
 ### Hyperparameters
 
-Good performance with average loss of 0.022 was achieved with keep probability value of 0.5, 30 epochs and 0.0001 learning rate
+Good performance with average loss of 0.022 was achieved with keep probability value of 0.5, 30 epochs and 0.0001 learning rate.
 
 ### Results
 [image1]: ./images/um_000023.png
